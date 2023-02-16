@@ -1,0 +1,70 @@
+#h2 {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+}
+
+#h4 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#pHeader {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Montserrat;
+    color: grey;
+}
+
+.rectangle {
+    height: 10px;
+    width: 30px;
+    background-color: rgb(201, 8, 201);
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+
+.subtitle {
+    font-family: Montserrat;
+    color: grey;
+}
+
+.btn {
+    display: flex;
+    padding-left: 18px;
+    margin: 10px;
+    border: none;
+    text-align: start;
+    width: 99%;
+    position: relative;
+    opacity: 0.7;
+    font-weight: 600;
+    color: unset;
+    text-decoration: none;
+}
+
+.btn::before {
+    content: "\f107";
+    font-family: "FontAwesome";
+    color: #737373;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: block;
+    font-size: 1.1rem;
+
+}
+
+.btn[aria-expanded="true"]::before {
+    content: "\f106";
+    color: #737373;
+}
+
+a {
+    text-decoration: none;
+}
+
+.carousel-img:hover {
+    filter: brightness(50%);
+}
